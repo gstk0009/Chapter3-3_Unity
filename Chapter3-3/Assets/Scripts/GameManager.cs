@@ -44,4 +44,10 @@ public class GameManager : MonoBehaviour
         Gold += monsterGold;
         PlayerGold.text = Gold.ToString();
     }
+
+    public void LvUpGold(float gold)
+    {
+        Gold -= gold;
+        PlayerGold.text = Gold.ToString();
+    }
 }

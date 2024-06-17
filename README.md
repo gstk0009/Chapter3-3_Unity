@@ -23,6 +23,11 @@
       Refactor : 더 나은 코드로 변경
       Move : 코드의 이동이 있는 경우
 
+[게임 설명]
+Tap Titans 모작 느낌으로 Mouse 왼쪽 클릭, TouchScreen Tab 할 시 애니메이션이 실행되면서 공격.
+Monster Hp가 0이 되면 Gold가 늘어나면서 1초 뒤에 Monster Setting일 거쳐서 다시 SetActive(True)가 됨.
+무한 반복
+
  [구현한 기능]
  1. 클릭 이벤트 처리
  2. 자동 클릭 기능
